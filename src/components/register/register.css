@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.contBack{
+    background-color: antiquewhite;
+    padding: 40px;
+    box-shadow: 5px 10px 30px grey;
+    border-radius: 10px;
+    width: 300px;
+}
+.inputbox{
+    display: flex;
+    flex-direction: column;
+}
+.btndiv{
+    text-align: center;
+}
+.btnbtn{
+    background-color: rgb(71, 71, 231);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}

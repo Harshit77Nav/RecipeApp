@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(220, 245, 255);
+}
+.recImg{
+    width: 250px;
+    height: 500px;
+}
+.gridview{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+.logoHead{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.logout{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+.searchbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.filter{
+    display: grid;
+    grid-template-columns: 30vw 40vw;
+    justify-content: space-around;
+}
+.displaydetails{
+    width: 40vw;
+}
+.logo{
+    cursor: pointer;
+}
+.addnew{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    width: fit-content;
+    margin: auto;
+    padding: 40px;
+    box-shadow: 5px 10px 30px grey;
+    border-radius: 10px;
+}
+.impt{
+    width: 30vw;
+}
+.h2{
+    text-align: center;
+}
