@@ -29,7 +29,7 @@ function Addnew() {
     },[])
     const handleAdd = async()=>{
         if(data.username && data.recipename && data.ingredients && data.instructions && data.image){
-            await fetch("http://localhost:5000/addrecipe",{
+            await fetch("https://recipe-appnodejs.onrender.com/addrecipe",{
                 method:"POST",
                 headers:{
                     "content-type":"application/json",

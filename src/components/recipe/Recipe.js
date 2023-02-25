@@ -33,7 +33,7 @@ function Recipe() {
     },[valid])
     const getdata = async ()=>{
         if(valid.email !== null){
-            await fetch("http://localhost:5000/recipes/"+valid.email,{
+            await fetch("https://recipe-appnodejs.onrender.com/recipes/"+valid.email,{
                 method:"GET",
                 headers:{
                     "Authorization":valid.token
@@ -69,7 +69,7 @@ function Recipe() {
     }
     const handlesearch = async ()=>{
         if(search !== ""){
-            await fetch("http://localhost:5000/search/"+search,{
+            await fetch("https://recipe-appnodejs.onrender.com/search/"+search,{
                 method:"GET",
                 headers:{
                     "Authorization":valid.token

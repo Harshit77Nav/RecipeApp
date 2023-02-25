@@ -11,7 +11,7 @@ function Login() {
 
     const handleSubmit = async ()=>{
         if(data.email && data.password){
-            await fetch("http://localhost:5000/login",{
+            await fetch("https://recipe-appnodejs.onrender.com/login",{
                 method:"POST",
                 headers:{
                     "content-type":"application/json"
